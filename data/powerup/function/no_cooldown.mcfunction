@@ -1,0 +1,1 @@
+execute at @p run tag @p add zero
