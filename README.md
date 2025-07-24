@@ -1,6 +1,6 @@
 
 # Powerups!
-
+[![Version](https://img.shields.io/static/v1?label=Version&message=1.1.0v&color=blue)]()
 Tired of slow movement and wishing for more power in Minecraft?
 Maybe you want to zoom across the landscape at incredible speeds?
 Perhaps you've dreamt of soaring through the air with a massive jump boost, or commanding the skies by summoning lightning and unleashing fireballs?
