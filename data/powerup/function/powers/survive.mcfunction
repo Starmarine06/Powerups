@@ -4,5 +4,5 @@ execute as @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Survive"]}}
 ##############################
 execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Survive"]}}}}] run execute at @p[scores={cd=0}] run tag @p add used
 execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Survive"]}}}}] run execute at @p[scores={cd=0},tag=used] run scoreboard players set @p cd 200
-execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Survive"]}}}}] run give @p lime_dye[minecraft:custom_data={Tags:["Survive"]},custom_name='{"bold":true,"color":"#55FF21","italic":false,"text":"Survive"}',enchantment_glint_override=true]
+execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Survive"]}}}}] run give @p lime_dye[minecraft:custom_data={Tags:["Survive"]},custom_name={"bold":true,"color":"#55FF21","italic":false,"text":"Survive"},enchantment_glint_override=true]
 execute as @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Survive"]}}}}] run kill @s

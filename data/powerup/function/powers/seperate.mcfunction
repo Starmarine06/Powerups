@@ -10,5 +10,5 @@ execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Seperate"]}
 ##############################
 execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Seperate"]}}}}] run execute at @p[scores={cd=0}] run tag @p add used
 execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Seperate"]}}}}] run execute at @p[scores={cd=0},tag=used] run scoreboard players set @p cd 10
-execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Seperate"]}}}}] run give @p orange_dye[minecraft:custom_data={Tags:["Seperate"]},custom_name='{"bold":true,"color":"gold","italic":false,"text":"Seperate"}',enchantment_glint_override=true]
+execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Seperate"]}}}}] run give @p orange_dye[minecraft:custom_data={Tags:["Seperate"]},custom_name={"bold":true,"color":"gold","italic":false,"text":"Seperate"},enchantment_glint_override=true]
 execute as @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Seperate"]}}}}] run kill @s

@@ -1,6 +1,7 @@
 {
     "pack": {
-        "pack_format": 48,
-        "description": "Adds Powerups!"
+        "description": "Adds Powerups!",
+        "min_format": 121,
+        "max_format": 121
     }
 }

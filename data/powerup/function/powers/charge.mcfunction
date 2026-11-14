@@ -18,5 +18,5 @@ execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Charge"]}}}
 execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Charge"]}}}}] run execute at @p[scores={cd=0}] run tag @p add used
 execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Charge"]}}}}] run execute at @p[scores={cd=0},tag=used] run scoreboard players set @p cd 10
 ##############################
-execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Charge"]}}}}] run give @p blue_dye[minecraft:custom_data={Tags:["Charge"]},custom_name='{"bold":true,"color":"blue","italic":false,"text":"Charge"}',enchantment_glint_override=true]
+execute at @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Charge"]}}}}] run give @p blue_dye[minecraft:custom_data={Tags:["Charge"]},custom_name={"bold":true,"color":"blue","italic":false,"text":"Charge"},enchantment_glint_override=true]
 execute as @e[nbt={Item:{components:{"minecraft:custom_data":{Tags:["Charge"]}}}}] run kill @s
